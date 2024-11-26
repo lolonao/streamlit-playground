@@ -3,14 +3,14 @@ from PIL import Image
 
 st.title("トップページ")
 st.caption("これはstreamlitのデモアプリです")
-st.subheader('自己紹介')
+st.subheader('簡単なデモ')
 st.text('streamlitの使い方を紹介します。')
 
 code = '''
 st.title('Sample app')
 st.title("トップページ")
 st.caption("これはstreamlitのデモアプリです")
-st.subheader('自己紹介')
+st.subheader('簡単なデモ')
 st.text('streamlitの使い方を紹介します。')
 '''
 st.code(code, language='python')
